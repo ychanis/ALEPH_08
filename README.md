@@ -3,7 +3,7 @@
 ALEPH_01의 공개 소개 원본을 유지하고, 패스키로만 인증하는 개인 공간을 추가했습니다. 작전/Defense 과제와는 별개입니다. 비공개 내용은 계정별로 생성하는 가상 학습 자료 3개입니다.
 
 - 결과물: https://yc-aleph-08-passkey.ksyji123.chatgpt.site/
-- 공개 소스: https://github.com/ychanis/ALEPH_08
+- 공개 소스: https://yc-aleph-08-passkey.ksyji123.chatgpt.site/source
 - 설명서: https://yc-aleph-08-passkey.ksyji123.chatgpt.site/submission
 - 과제 1 원본: https://github.com/ychanis/ALEPH_01
 

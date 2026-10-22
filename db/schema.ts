@@ -1,0 +1,7 @@
+import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
+export const accounts = sqliteTable('accounts', { id: text('id').primaryKey(), createdAt: integer('created_at').notNull() });
+export const credentials = sqliteTable('credentials', { id: text('id').primaryKey(), owner: text('owner').notNull(), publicKey: text('public_key').notNull(), counter: integer('counter').notNull(), transports: text('transports').notNull(), name: text('name').notNull(), provider: text('provider').notNull(), deviceType: text('device_type').notNull(), backedUp: integer('backed_up').notNull(), createdAt: integer('created_at').notNull() });
+export const challenges = sqliteTable('challenges', { id: text('id').primaryKey(), challenge: text('challenge').notNull(), kind: text('kind').notNull(), owner: text('owner').notNull(), binding: text('binding').notNull(), sessionHash: text('session_hash'), name: text('name').notNull(), provider: text('provider').notNull(), expiresAt: integer('expires_at').notNull() });
+export const sessions = sqliteTable('sessions', { hash: text('hash').primaryKey(), owner: text('owner').notNull(), expiresAt: integer('expires_at').notNull() });
+export const notes = sqliteTable('notes', { id: text('id').primaryKey(), owner: text('owner').notNull(), title: text('title').notNull(), content: text('content').notNull() });
+export const audit = sqliteTable('audit', { id: text('id').primaryKey(), owner: text('owner').notNull(), event: text('event').notNull(), detail: text('detail').notNull(), createdAt: integer('created_at').notNull() });

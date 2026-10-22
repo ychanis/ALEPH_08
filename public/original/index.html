@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>송영찬 | Information Security</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+  <header class="topbar">
+    <div>
+      <strong class="name">송영찬</strong>
+      <span class="role">Information Security Learner</span>
+    </div>
+    <span class="top-note">배우고 직접 실습하며 성장하는 보안 입문자</span>
+  </header>
+
+  <section class="dashboard" aria-label="송영찬 자기소개">
+    <article class="card intro">
+      <p class="kicker">INTRODUCTION</p>
+      <h1>정보보안을 배우고<br>직접 확인하며 성장합니다.</h1>
+      <p class="summary">
+        네트워크와 Linux를 중심으로 정보보안 기초를 공부하고,
+        배운 내용을 직접 구성하고 확인하는 실습을 이어가고 있습니다.
+      </p>
+      <p class="purpose">
+        이 페이지는 정보보안 분야에 관심 있는 사람에게 제가 무엇을 공부하고
+        어떤 방식으로 문제를 해결해 왔는지 보여주기 위해 만들었습니다.
+      </p>
+      <button id="detailButton" type="button" aria-expanded="false" aria-controls="detailPanel">
+        실습 근거 자세히 보기
+      </button>
+    </article>
+
+    <article class="card activity">
+      <p class="kicker">ACTIVITY</p>
+      <h2>현재 활동</h2>
+      <ul>
+        <li>정보보안 기초 학습</li>
+        <li>Linux 명령어·서버 실습</li>
+        <li>네트워크·DNS·NAT 구성</li>
+        <li>문제 원인 확인과 해결 연습</li>
+      </ul>
+    </article>
+
+    <article class="card profile-card" aria-label="프로필">
+      <div class="profile-avatar" aria-hidden="true">YC</div>
+      <p class="kicker profile-kicker">PROFILE</p>
+      <h2>송영찬</h2>
+      <p class="profile-role">Information Security Learner</p>
+      <div class="profile-tags" aria-label="관심 분야">
+        <span>Network</span><span>Linux</span><span>Security</span>
+      </div>
+      <dl class="profile-info">
+        <div><dt>관심 분야</dt><dd>네트워크 · 시스템 보안</dd></div>
+        <div><dt>학습 방식</dt><dd>직접 구성하고 문제를 확인하기</dd></div>
+        <div><dt>목표</dt><dd>보안 실무 역량 꾸준히 키우기</dd></div>
+      </dl>
+    </article>
+
+    <section class="card strengths" aria-labelledby="evidence-title">
+      <div class="strength-layout">
+        <section class="proof-area">
+          <p class="kicker">EVIDENCE</p>
+          <h2 id="evidence-title">공개 가능한 근거</h2>
+          <div class="proof-grid">
+            <article class="proof-item">
+              <span class="proof-number">01</span>
+              <div>
+                <h3>네트워크 통신 문제 해결</h3>
+                <p>IP·게이트웨이·라우팅·NAT를 순서대로 점검해 잘못된 설정을 찾고 ping 성공을 확인했습니다.</p>
+              </div>
+            </article>
+            <article class="proof-item">
+              <span class="proof-number">02</span>
+              <div>
+                <h3>Linux 명령어 실습</h3>
+                <p>chmod·chown·cp·mv를 직접 반복 실행하며 권한과 파일 관리 결과를 비교했습니다.</p>
+              </div>
+            </article>
+            <article class="proof-item">
+              <span class="proof-number">03</span>
+              <div>
+                <h3>DNS 동작 흐름 확인</h3>
+                <p>캐시·Zone·TTL을 실제 질의 흐름과 연결해 비교하며 각각의 역할을 구분했습니다.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="strength-area" aria-labelledby="strength-title">
+          <p class="kicker">STRENGTHS & EXPERIENCE</p>
+          <h2 id="strength-title">강점과 경험 3가지</h2>
+          <div class="strength-grid">
+            <article class="mini-card">
+              <h3>끝까지 원인을 찾습니다</h3>
+              <p><b>상황</b> 외부 통신이 되지 않는 문제가 발생했습니다.</p>
+              <p><b>행동</b> IP·게이트웨이·라우팅·NAT를 순서대로 점검했습니다.</p>
+              <p><b>결과</b> 잘못된 설정을 수정하고 ping 성공을 확인했습니다.</p>
+              <p class="linked-proof"><b>연결 근거</b> 근거 01 — 네트워크 통신 문제 해결</p>
+            </article>
+            <article class="mini-card">
+              <h3>직접 해보며 배웁니다</h3>
+              <p><b>상황</b> Linux 명령어를 외우기만 해서는 어려웠습니다.</p>
+              <p><b>행동</b> chmod·chown·cp·mv를 직접 반복 실행했습니다.</p>
+              <p><b>결과</b> 권한과 기본 파일 관리 작업을 이해했습니다.</p>
+              <p class="linked-proof"><b>연결 근거</b> 근거 02 — Linux 명령어 실습</p>
+            </article>
+            <article class="mini-card">
+              <h3>모르는 것을 넘기지 않습니다</h3>
+              <p><b>상황</b> DNS 캐시·Zone·TTL이 헷갈렸습니다.</p>
+              <p><b>행동</b> 질의 흐름과 실제 응답을 비교했습니다.</p>
+              <p><b>결과</b> 각 역할과 DNS 응답 과정을 구분할 수 있게 됐습니다.</p>
+              <p class="linked-proof"><b>연결 근거</b> 근거 03 — DNS 동작 흐름 확인</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <article class="card public-scope">
+      <p class="kicker">PUBLIC SCOPE</p>
+      <h2>공개 범위</h2>
+      <section class="scope-block open" aria-labelledby="open-title">
+        <h3 id="open-title">공개하는 정보</h3>
+        <ul>
+          <li>공부 중인 분야</li><li>실습 경험</li><li>문제 해결 과정</li><li>학습 방식</li>
+        </ul>
+      </section>
+      <section class="scope-block closed" aria-labelledby="closed-title">
+        <h3 id="closed-title">공개하지 않는 정보</h3>
+        <ul>
+          <li>전화번호·개인 이메일</li><li>집 주소·상세 위치</li>
+          <li>생년월일·식별 정보</li><li>비밀번호·토큰·API 키</li>
+        </ul>
+      </section>
+    </article>
+  </section>
+
+  <section id="detailPanel" class="detail-overlay" hidden role="dialog"
+           aria-modal="true" aria-labelledby="detailTitle">
+    <div class="detail-box">
+      <h2 id="detailTitle">실습 근거 상세</h2>
+      <p>Linux 환경에서 파일 권한과 사용자 관리 명령을 연습했고, 네트워크 실습에서는 IP 설정, 라우팅, DNS, NAT 구성 과정에서 연결되지 않는 원인을 단계별로 확인해 해결했습니다.</p>
+      <p>이 페이지에는 공개하기로 정한 학습 경험만 포함했습니다.</p>
+      <button id="closeDetail" type="button">닫기</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
